@@ -1,0 +1,13 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Outfit', sans-serif; }
+body.dark-theme { background: #0f172a; color: #f8fafc; }
+.app-container { display: flex; width: 100vw; height: 100vh; }
+.sidebar { width: 250px; background: #1e293b; padding: 20px; border-right: 1px solid #334155; }
+.brand { display: flex; align-items: center; gap: 10px; margin-bottom: 30px; }
+.badge { background: #6366f1; color: white; padding: 2px 8px; border-radius: 12px; font-size: 0.75rem; }
+.nav-menu { display: flex; flex-direction: column; gap: 10px; }
+.nav-btn { background: transparent; color: #94a3b8; border: none; text-align: left; padding: 10px; border-radius: 6px; cursor: pointer; }
+.nav-btn.active { background: #334155; color: white; }
+.content-area { flex: 1; padding: 30px; overflow-y: auto; }
+.top-header { display: flex; justify-content: space-between; margin-bottom: 25px; }
+.status-badge { background: #065f46; color: #34d399; padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; }
+.card { background: #1e293b; padding: 20px; border-radius: 10px; border: 1px solid #334155; margin-bottom: 20px; }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><title>RouteFlow — Delivery Logistics & GPS Dispatch</title><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"></head>
+<body>
+    <div class="layout">
+        <aside class="sidebar"><h2>📍 RouteFlow Dispatch</h2><nav><a href="#" class="active">🗺️ Tournées Live</a><a href="#">📦 Commandes (48)</a><a href="#">🚚 Livreurs (12)</a></nav></aside>
+        <main class="main">
+            <h1>Tableau de Bord Logistique & Suivi GPS</h1>
+            <div class="metrics">
+                <div class="card"><h3>Livraisons du Jour</h3><p class="val">128</p></div>
+                <div class="card"><h3>Livreurs en Route</h3><p class="val" style="color:#2563eb;">12 Actifs</p></div>
+                <!-- WOW FEATURE: Live CO2 Savings Ticker -->
+                <div class="card"><h3>Économie CO2 (Optimisation)</h3><p class="val" style="color:#10b981;" id="co2-ticker">148.4 kg CO2</p></div>
+            </div>
+
+            <!-- WOW FEATURE: Live Delivery Map & Reroute Simulator -->
+            <div class="card map-box">
+                <div class="map-header">
+                    <h2>🗺️ Geotracking Livreurs & Simulateur de Tournée</h2>
+                    <button class="btn-reroute" onclick="triggerReroute()">⚡ Simuler Embouteillage & Reroutage IA</button>
+                </div>
+                <div class="map-demo" id="map-status">📍 Livreur #04 (Avenue Jean-Paul II) — ETA : 14 minutes (Itinéraire Optimal)</div>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body></html>

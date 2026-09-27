@@ -1,0 +1,1 @@
+import React from 'react'; export default function Navbar() { return (<aside className='sidebar'><div className='brand'><span className='logo-icon'>⚡</span><h2>RouteFlow <span className='badge'>PRO</span></h2></div><nav className='nav-menu'><button className='nav-btn active'>📊 Dashboard</button></nav></aside>); }
